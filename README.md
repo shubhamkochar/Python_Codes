@@ -1,1 +1,1 @@
-<h2> Python basic codes </h2>
+<h2> Basic Python Codes </h2>

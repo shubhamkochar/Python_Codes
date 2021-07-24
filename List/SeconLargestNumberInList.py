@@ -1,13 +1,12 @@
 # Python code to find the second largest number in the list
 
-lst = [24,74,36,47,65,92,94,61]
+lst =[]
 
-largest = max(lst)
-smallest = min(lst)
+num = int(input("Enter the number of elements to insert: "))
 
-# for i in range(len(lst)):
-#     if largest<lst[i]:
-#         print("Second largest number is:",lst[i])
-#     else:
+for i in range(0,num):
+    ele = int(input("Enter the element: "))
+    lst.append(ele)
 
-print(max(lst[0],lst[1]))
+print("Elements of list: ",lst)
+print("Second largest element in the list is: ",sorted(lst)[-2])

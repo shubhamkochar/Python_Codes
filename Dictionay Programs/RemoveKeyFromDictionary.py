@@ -4,6 +4,6 @@ details = {"Mariya":23,"Harold":25,"Peter":30,"Lena":28}
 
 print(details)
 
-removed = details.pop("Peter")
+details.pop("Peter")
 
 print("New dictionary:",details)
